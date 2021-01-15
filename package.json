@@ -1,0 +1,39 @@
+{
+  "name": "ets-knx-group-xml-to",
+  "version": "1.0.0",
+  "description": "import an ETS KNX XML group address export into js",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && jest"
+  },
+  "standard": {
+    "env": [ "jest" ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluewire-solutions/ets-knx-group-xml-to-js.git"
+  },
+  "keywords": [
+    "ets",
+    "knx",
+    "node",
+    "building",
+    "automation",
+    "smart",
+    "home",
+    "iot"
+  ],
+  "author": "bluewire.solutions GmbH & Co. KG",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bluewire-solutions/ets-knx-group-xml-to-js/issues"
+  },
+  "homepage": "https://github.com/bluewire-solutions/ets-knx-group-xml-to-js#readme",
+  "dependencies": {
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "standard": "^16.0.3"
+  }
+}

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GroupAddress-Export xmlns="http://knx.org/xml/ga-export/01">
+  <GroupRange Name="Main 1" RangeStart="1" RangeEnd="2047">
+    <GroupRange Name="Sub 1" RangeStart="1" RangeEnd="255">
+      <GroupAddress Name="Group 1" Address="0/0/1" DPTs="DPST-1-1" />
+    </GroupRange>
+  </GroupRange>
+  <GroupRange Name="Main 2" RangeStart="2048" RangeEnd="4095">
+    <GroupRange Name="Sub 2" RangeStart="2048" RangeEnd="2303">
+      <GroupAddress Name="Group 2" Address="1/0/0" DPTs="DPST-5-1" />
+    </GroupRange>
+    <GroupRange Name="Sub 3" RangeStart="2304" RangeEnd="2559">
+      <GroupAddress Name="Group 3" Address="1/1/0" DPTs="DPST-1-11" />
+      <GroupAddress Name="Group 4" Address="1/1/1" DPTs="DPST-1-1" />
+    </GroupRange>
+    <GroupRange Name="Sub 4" RangeStart="2560" RangeEnd="2815" />
+  </GroupRange>
+</GroupAddress-Export>
